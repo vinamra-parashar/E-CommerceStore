@@ -209,6 +209,9 @@ docker push YOUR_DOCKER_HUB_USERNAME/ecommerce-cart-service:latest
 docker push YOUR_DOCKER_HUB_USERNAME/ecommerce-order-service:latest
 docker push YOUR_DOCKER_HUB_USERNAME/ecommerce-frontend:latest
 ```
+<img width="1494" height="378" alt="image" src="https://github.com/user-attachments/assets/4d68c24d-439d-48c6-ab78-81eb2c5f43df" />
+<img width="1409" height="457" alt="image" src="https://github.com/user-attachments/assets/d2412fd7-e3a5-433a-bdbd-c2bf5e562494" />
+<img width="2848" height="1268" alt="image" src="https://github.com/user-attachments/assets/40695a02-51ce-40be-98ea-83f7fbac4bef" />
 
 ---
 
@@ -270,6 +273,7 @@ terraform apply \
   -var="jwt_secret=<YOUR_JWT_SECRET>" \
   -auto-approve
 ```
+<img width="1190" height="630" alt="image" src="https://github.com/user-attachments/assets/c56d4f09-fb48-4271-accf-ff6583576f1f" />
 
 ### Terraform Outputs
 
@@ -360,6 +364,7 @@ cd backend/cart-service    && npm start   # → http://localhost:3003
 cd backend/order-service   && npm start   # → http://localhost:3004
 cd frontend                && npm start   # → http://localhost:3000
 ```
+<img width="1408" height="939" alt="image" src="https://github.com/user-attachments/assets/51095754-7b23-460a-a5d3-756d6f940b36" />
 
 ### Health Checks
 
